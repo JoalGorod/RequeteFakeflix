@@ -1,0 +1,192 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/45082c39-e6d5-4b02-8867-e38fe32ed3af/b5a93452-0cbe-46c1-8235-0ac73b5b8b82/CO-es-20220919-popsignuptwoweeks-perspective_alpha_website_small.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+
+.logo-img{
+  object-fit: cover;
+  height: auto;
+  margin: 0 0 0 4rem;
+}
+
+header {
+  display: flex;
+  height: 5rem;
+  background: rgba( 14, 14, 14, 0.8 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  border-radius: 0  0 12px 12px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+}
+
+footer {
+  background: rgba( 14, 14, 14, 0.8 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  border-radius: 0  0 12px 12px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  color: #8c8c8c;
+  padding-left: 22rem;
+  padding-top: 2rem;
+  padding-bottom: 4rem;
+}
+
+.container-central{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-login{
+  background-color: rgba( 14, 14, 14, 0.8);
+  width: 35rem;
+  height: 45rem;
+  display: flex;
+  flex-direction:column;
+  margin-top: 5rem;
+  padding-left: 4rem;
+  padding-top: 4rem;
+  padding-right: 4.5rem;
+  border-radius: 8px;
+  margin-bottom: 6rem;
+}
+
+.container-login > h1{
+  color: #fff;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  
+}
+
+.input-style-log {
+  background-color: #333;
+  border: 1px  #8c8c8c;
+  margin: 0 0 1rem 0 ;
+  height: 4rem;
+  border-radius: 8px;
+}
+
+.input-style-log::placeholder {
+  padding-left: 2rem;
+  font-size: 1.5rem;
+}
+
+.singin-btn{
+  margin-top: 2rem;
+  height: 4rem;
+  border-radius: 8px;
+  background-color: red;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.5rem;
+  border: none;
+}
+
+.container-remenber-help{
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.container-checkbox{
+  display: flex;
+  flex-direction: row;
+  color: rgb(124, 124, 124);
+  align-items: center;
+  gap: 0.5em;
+}
+
+.container-checkbox p {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.container-checkbox input{
+  background: #333;
+
+}
+
+.container-remenber-help a {
+  text-decoration: none;
+  color: #8c8c8c;
+  font-size: 1.25rem;
+}
+
+.container-bot{
+  margin-top: 6rem;
+}
+
+article p{
+  color: #8c8c8c;
+}
+
+.sign-up-now{
+  text-decoration: none;
+  color: #fff;
+}
+
+.learn-more{
+  text-decoration: none;
+}
+
+.list-footer {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.dropdown{
+  width: 15rem;
+  height: 4rem;
+  margin: 3rem 0 0 0;
+}
+
+.dropdown-toggle{
+  background-color: #8c8c8c;
+  width: 8rem;
+  height: 4rem;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: columns;
+  gap: 0.5rem;
+  justify-content: space-between;
+  align-items: center;
+  border: none;
+}
+
+.container-btn-gl{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.container-btn-gl p {
+  margin: 0;
+}
+
+.dropdown-menu{
+  background-color: black;
+  position: relative;
+  bottom: 30px;
+  
+}
+
+.dropdown-item{
+  padding: 0;
+  margin: 0;
+  color: #fff;
+}
+
+.global-icon {
+  margin: 0;
+  padding: 0;
+  height: 1.5rem;
+}
